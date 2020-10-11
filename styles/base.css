@@ -1,51 +1,54 @@
-body{ 
-  margin: auto;
-  max-width:480px;
-  background-color:rgb(60, 155, 23);
-}
+@media only screen and (max-width: 768px) {
 
-div{
-  outline: 1px solid;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Heebo', sans-serif;
-  font-size:40px;
-  color: white;
-}
+  body {
+    margin: auto;
+    max-width: 100%;
+    background-color: #4d194dff;
+  }
 
-#a{
-background: rgb(53, 43, 24)   ; 
-}
+  div {
+    outline: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+  }
 
-#b{
-  background: rgb(63, 45, 13) ; 
-}
 
-#c{
-  background:rgb(54, 37, 5);
-}
+  #a {
+    background: #006466ff;
+  }
 
-#d{
-  background:  rgb(95, 97, 97);
-}
+  #b {
+    background: #065a60ff;
+  }
 
-#e{
-  background:rgb(85, 96, 102);
-}
+  #c {
+    background: #0b525bff;
+  }
 
-#f{
-  background:rgb(58, 61, 66);
-}
+  #d {
+    background: #144552ff;
+  }
 
-#g{
-  background: rgb(130, 129, 153);
-}
+  #e {
+    background: #1b3a4bff;
+  }
 
-#h{
-  background: rgb(23, 20, 27);
-}
+  #f {
+    background: #212f45ff;
+  }
 
-#i{
-  background: rgb(15, 4, 19);
-} 
+  #g {
+    background: #272640ff;
+  }
+
+  #h {
+    background: #312244ff;
+  }
+
+  #i {
+    background: #3e1f47ff;
+  }
+}
